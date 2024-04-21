@@ -5,3 +5,12 @@ function onToggleMenu(e){
     navLinks.classList.toggle('top-0')
     navLinks.classList.toggle('top-[-100%]')
 }
+
+function openDonatePage(){
+    window.location.href = './donate.html';
+}
+
+function openDonatePageFromIndex(){
+    window.location.href = './src/donate.html';
+}
+
