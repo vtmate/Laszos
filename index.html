@@ -26,24 +26,21 @@
                 class="nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-5">
                 <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
                     <li>
-                        <a class="hover:text-gray-500" href="#">Products</a>
+                        <a class="hover:text-gray-500" href="./src/about.html">About</a>
                     </li>
                     <li>
-                        <a class="hover:text-gray-500" href="#">Solution</a>
+                        <a class="hover:text-gray-500" href="#">Apply</a>
                     </li>
                     <li>
-                        <a class="hover:text-gray-500" href="#">Resource</a>
+                        <a class="hover:text-gray-500" href="#">Results</a>
                     </li>
                     <li>
-                        <a class="hover:text-gray-500" href="#">Developers</a>
-                    </li>
-                    <li>
-                        <a class="hover:text-gray-500" href="#">Pricing</a>
+                        <a class="hover:text-gray-500" href="#">Contact</a>
                     </li>
                 </ul>
             </div>
             <div class="flex items-center gap-6">
-                <button class="bg-[#a6c1ee] text-white px-5 py-2 rounded-full hover:bg-[#87acec]">Sign in</button>
+                <button class="bg-[#a6c1ee] text-white px-5 py-2 rounded-full hover:bg-[#87acec]">Donate</button>
                 <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
             </div>
     </header>
@@ -362,14 +359,7 @@
 
 
 
-    <script>
-        const navLinks = document.querySelector('.nav-links')
-        function onToggleMenu(e){
-            e.name = e.name === 'menu' ? 'close' : 'menu'
-            navLinks.classList.toggle('top-0')
-            navLinks.classList.toggle('top-[-100%]')
-        }
-    </script>
+    <script src="./src/app.js"></script>
     <script type="module">
         import KeenSlider from 'https://cdn.jsdelivr.net/npm/keen-slider@6.8.6/+esm'
 
