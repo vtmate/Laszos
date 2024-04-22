@@ -14,3 +14,9 @@ function openDonatePageFromIndex(){
     window.location.href = './src/donate.html';
 }
 
+
+// function toggleAccordion(){
+//     // document.querySelector(".accordion-heading").classList.remove("hidden");
+//     document.getElementById("accordion-collapse-body-1").classList.toggle("hidden");
+// }
+
