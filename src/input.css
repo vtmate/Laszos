@@ -19,4 +19,9 @@
         @apply
         mt-6 text-lg leading-8 text-gray-600
     }
+
+    .primbtn{
+        @apply
+        px-4 py-2 hover:cursor-pointer bg-slate-400 rounded-xl
+    }
 }
