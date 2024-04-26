@@ -732,6 +732,11 @@ video {
   margin-right: 0.5rem;
 }
 
+.my-24 {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
 .mb-1 {
   margin-bottom: 0.25rem;
 }
@@ -830,6 +835,10 @@ video {
 
 .inline-flex {
   display: inline-flex;
+}
+
+.table {
+  display: table;
 }
 
 .grid {
@@ -949,6 +958,18 @@ video {
   width: 8rem;
 }
 
+.w-\[25rem\] {
+  width: 25rem;
+}
+
+.w-\[40rem\] {
+  width: 40rem;
+}
+
+.w-\[50rem\] {
+  width: 50rem;
+}
+
 .min-w-72 {
   min-width: 18rem;
 }
@@ -985,12 +1006,20 @@ video {
   max-width: 70rem;
 }
 
+.max-w-\[30rem\] {
+  max-width: 30rem;
+}
+
 .shrink-0 {
   flex-shrink: 0;
 }
 
 .flex-grow {
   flex-grow: 1;
+}
+
+.border-collapse {
+  border-collapse: collapse;
 }
 
 .origin-center {
@@ -1124,6 +1153,10 @@ video {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.overflow-x-auto {
+  overflow-x: auto;
 }
 
 .rounded-2xl {
@@ -1275,6 +1308,10 @@ video {
 
 .p-40 {
   padding: 10rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .px-4 {
