@@ -739,6 +739,11 @@ video {
   margin-bottom: 2rem;
 }
 
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .mb-1 {
   margin-bottom: 0.25rem;
 }
@@ -815,6 +820,10 @@ video {
   margin-top: 2rem;
 }
 
+.ml-4 {
+  margin-left: 1rem;
+}
+
 .flex {
   display: flex;
 }
@@ -874,6 +883,22 @@ video {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-\[30rem\] {
+  height: 30rem;
+}
+
+.h-\[10rem\] {
+  height: 10rem;
+}
+
+.h-\[25rem\] {
+  height: 25rem;
+}
+
+.h-\[15rem\] {
+  height: 15rem;
 }
 
 .min-h-\[60vh\] {
@@ -944,6 +969,18 @@ video {
   width: 9rem;
 }
 
+.w-\[10rem\] {
+  width: 10rem;
+}
+
+.w-\[25rem\] {
+  width: 25rem;
+}
+
+.w-4\/5 {
+  width: 80%;
+}
+
 .min-w-72 {
   min-width: 18rem;
 }
@@ -978,6 +1015,18 @@ video {
 
 .max-w-xl {
   max-width: 36rem;
+}
+
+.max-w-\[40rem\] {
+  max-width: 40rem;
+}
+
+.max-w-\[30rem\] {
+  max-width: 30rem;
+}
+
+.max-w-\[25rem\] {
+  max-width: 25rem;
 }
 
 .shrink-0 {
@@ -1246,6 +1295,11 @@ video {
 
 .fill-indigo-500 {
   fill: #6366f1;
+}
+
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .object-cover {
@@ -1675,6 +1729,11 @@ video {
     margin-bottom: 4rem;
   }
 
+  .md\:mx-8 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
   .md\:mb-40 {
     margin-bottom: 10rem;
   }
@@ -1699,6 +1758,18 @@ video {
     margin-top: 3rem;
   }
 
+  .md\:ml-0 {
+    margin-left: 0px;
+  }
+
+  .md\:ml-4 {
+    margin-left: 1rem;
+  }
+
+  .md\:mt-20 {
+    margin-top: 5rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -1713,6 +1784,10 @@ video {
 
   .md\:h-\[90vh\] {
     height: 90vh;
+  }
+
+  .md\:h-\[25rem\] {
+    height: 25rem;
   }
 
   .md\:min-h-fit {
